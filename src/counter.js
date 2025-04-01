@@ -7,8 +7,8 @@ const App = () => {
 
   const fetch = (type, name, id) => ({
     type: type,
-    name: name, // You can pass the name dynamically
-    id: id, // Add another parameter, like id
+    name: name, 
+    id: id, 
   });
 
   return (
